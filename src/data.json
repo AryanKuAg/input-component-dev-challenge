@@ -1,0 +1,259 @@
+{
+    "header": "Buttons",
+    "rows": [
+        {
+            "id": "1",
+            "columns": [
+                {
+                    "attribute": "<Button />",
+                    "text": "Default",
+                    "color": "#3F3F3F",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#E0E0E0",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "&:hover, &:focus",
+                    "text": "Default",
+                    "color": "#3F3F3F",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#AEAEAE",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "columns": [
+                {
+                    "attribute": "<Button variant=\"outline\" />",
+                    "text": "Default",
+                    "color": "#3d5afe",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#3d5afe",
+                    "borderWidth": "2px",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "&:hover, &:focus",
+                    "text": "Default",
+                    "color": "#3d5afe",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#EAF0FF",
+                    "borderColor": "#3d5afe",
+                    "borderWidth": "2px",
+                    "padding": "8px 22px"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "columns": [
+                {
+                    "attribute": "<Button variant=\"text\" />",
+                    "text": "Default",
+                    "color": "#3D5AFE"
+                },
+                
+                {
+                    "attribute": "&:hover, &:focus",
+                    "text": "Default",
+                    "color": "#3d5afe",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#EAF0FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "columns": [
+                {
+                    "attribute": "<Button disableShadow />",
+                    "text": "Default",
+                    "color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#3D5AFE",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "columns": [
+                {
+                    "attribute": "<Button disabled />",
+                    "text": "Disabled",
+                    "color": "#AAAAAA",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#E0E0E0",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "<Button variant=\"text\" disabled />",
+                    "text": "Disabled",
+                    "color": "#9E9E9E"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "columns": [
+                {
+                    "attribute": "<Button startIcon=\"local_grocery_store\" />",
+                    "text": "Default",
+                    "color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#2962FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px",
+                    "iconPosition": "start",
+                    "iconSize": "20px"
+                },
+                {
+                    "attribute": "<Button endIcon=\"local_grocery_store\" />",
+                    "text": "Default",
+                    "color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#2962FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px",
+                    "iconPosition": "end",
+                    "iconSize": "20px"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "columns": [
+                {
+                    "attribute": "<Button size=\"sm\" />",
+                    "text": "Default",
+                    "color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#2962FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "<Button size=\"md\" />",
+                    "text": "Default",
+                    "color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#2962FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "10px 24px"
+                },
+                {
+                    "attribute": "<Button size=\"lg\" />",
+                    "text": "Default",
+                    "color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#2962FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "14px 30px"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "columns": [
+                {
+                    "attribute": "<Button color=\"default\" />",
+                    "text": "Default",
+                    "color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#2962FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "<Button color=\"primary\" />",
+                    "text": "Default","color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#2962FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "<Button color=\"secondary\" />",
+                    "text": "Secondary","color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#455A64",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "<Button color=\"danger\" />",
+                    "text": "Danger","color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#D32F2F",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "columns": [
+                {
+                    "attribute": "&:hover, &:focus",
+                    "text": "Default",
+                    "color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#2962FF",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "",
+                    "text": "Default","color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#0039CB",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "",
+                    "text": "Secondary","color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#1C313A",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                },
+                {
+                    "attribute": "",
+                    "text": "Danger","color": "#fff",
+                    "borderRadius": "10px",
+                    "backgroundColor": "#9A0007",
+                    "borderColor": "",
+                    "borderWidth": "",
+                    "padding": "8px 22px"
+                }
+            ]
+        }
+    ]
+}
