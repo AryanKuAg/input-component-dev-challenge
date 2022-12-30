@@ -3,6 +3,10 @@
     font-weight: 600;
  }
 
+ .left__placeholder__padding::placeholder {
+    padding-left: 20px;
+ }
+
 /* 
   .call__icon, .lock__icon {
     position: relative;

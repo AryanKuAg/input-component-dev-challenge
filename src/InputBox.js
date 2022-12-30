@@ -4,15 +4,15 @@ import lock from "./assets/lock.svg";
 import "./InputBox.css";
 
 function InputBox(props) {
-//   const isEnd = props.icon.position === "end";
-//   const icon = (
-//     <img
-//       src={isEnd ? lock : call}
-//       height={props.iconSize}
-//       width={props.iconSize}
-//       className={`block  ${isEnd ? "ml-4" : "mr-4"}`}
-//     />
-//   );
+  const isEnd = props?.icon?.position === "end";
+  const icon = (
+    <img
+      src={isEnd ? lock : call}
+      height={props?.icon?.iconSize}
+      width={props?.icon?.iconSize}
+      className={`block absolute ${isEnd ? "ml-4 right-[40px]" : "mr-4 left-[15px]"} top-[18px]`}
+    />
+  );
 
   return (
     <div className="min-w-[250px] mr-16 mb-4">
@@ -37,15 +37,19 @@ function InputBox(props) {
         >
           {props.label.text}
         </label>
-        <input
+        <div className="relative">
+            {props?.icon && icon}
+            <input
           type={props.input.type}
           style={{
             ...props.input,
+            
           }}
-          className="my__input "
+          className={`my__input ${props?.icon && !isEnd ? "left__placeholder__padding": ""}`}
           placeholder={props.input.placeholder}
           value={props.input?.value}
-        />
+        /></div>
+        
         <p
           className="mb-2 mt-1 text-gray-600 font-medium"
           style={
