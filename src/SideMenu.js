@@ -15,7 +15,7 @@ function SideMenu() {
       <img src={Logo} className="mt-8 mb-28" alt="My Website Logo"/>
       <div className="flex flex-col">
         {menuOptions.map((opn) => (
-          <button className={`text-left my-3 hover:text-slate-900 hover:font-bold ${selected === opn.name ? 'text-slate-900 font-bold' : 'font-medium text-slate-600'}`} onClick={() => {
+          <button className={`text-lg text-left my-3 hover:text-slate-900 hover:font-bold ${selected === opn.name ? 'text-slate-900 font-bold' : 'font-medium text-slate-600'}`} onClick={() => {
             setSelected(opn.name)
           }}>
             {opn.name}

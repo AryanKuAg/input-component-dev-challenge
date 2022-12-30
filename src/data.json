@@ -1,123 +1,368 @@
 {
-  "header": "Inputs",
-  "rows": [
-    {
-      "id": "1",
-      "columns": [
+    "header": "Inputs",
+    "rows": [
         {
-          "attribute": "<Input />",
-          "label": {
-            "text": "Label",
-            "color": "#333333",
-            "fontWeight": "400"
-          },
-          "input": {
-            "type": "text",
-            "placeholder": "Placeholder",
-            "color": "#3F3F3F",
-            "borderRadius": "8px",
-            "backgroundColor": "",
-            "borderColor": "#828282",
-            "borderWidth": "1px",
-            "padding": "16px 22px"
-          }
+            "id": "1",
+            "columns": [
+                {
+                    "attribute": "<Input />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#828282",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                },
+                {
+                    "attribute": "&:hover",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#333333",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                },
+                {
+                    "attribute": "&:focus",
+                    "label": {
+                        "text": "Label",
+                        "color": "#2962FF",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#2962FF",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                }
+            ]
         },
         {
-            "attribute": "&:hover",
-            "label": {
-              "text": "Label",
-              "color": "#333333",
-              "fontWeight": "400"
-            },
-            "input": {
-              "type": "text",
-              "placeholder": "Placeholder",
-              "color": "#3F3F3F",
-              "borderRadius": "8px",
-              "backgroundColor": "",
-              "borderColor": "#333333",
-              "borderWidth": "1px",
-              "padding": "16px 22px"
-            }
-          },
-          {
-            "attribute": "&:focus",
-            "label": {
-              "text": "Label",
-              "color": "#2962FF",
-              "fontWeight": "400"
-            },
-            "input": {
-              "type": "text",
-              "placeholder": "Placeholder",
-              "color": "#3F3F3F",
-              "borderRadius": "8px",
-              "backgroundColor": "",
-              "borderColor": "#2962FF",
-              "borderWidth": "1px",
-              "padding": "16px 22px"
-            }
-          }
-      ]
-    },
-    {
-        "id": "2",
-        "columns": [
-          {
-            "attribute": "<Input error />",
-            "label": {
-              "text": "Label",
-              "color": "#D32F2F",
-              "fontWeight": "400"
-            },
-            "input": {
-              "type": "text",
-              "placeholder": "Placeholder",
-              "color": "#3F3F3F",
-              "borderRadius": "8px",
-              "backgroundColor": "",
-              "borderColor": "#D32F2F",
-              "borderWidth": "1px",
-              "padding": "16px 22px"
-            }
-          },
-          {
-              "attribute": "&:hover",
-              "label": {
-                "text": "Label",
-                "color": "#333333",
-                "fontWeight": "400"
-              },
-              "input": {
-                "type": "text",
-                "placeholder": "Placeholder",
-                "color": "#3F3F3F",
-                "borderRadius": "8px",
-                "backgroundColor": "",
-                "borderColor": "#333333",
-                "borderWidth": "1px",
-                "padding": "16px 22px"
-              }
-            },
-            {
-              "attribute": "&:focus",
-              "label": {
-                "text": "Label",
-                "color": "#D32F2F",
-                "fontWeight": "400"
-              },
-              "input": {
-                "type": "text",
-                "placeholder": "Placeholder",
-                "color": "#3F3F3F",
-                "borderRadius": "8px",
-                "backgroundColor": "",
-                "borderColor": "#D32F2F",
-                "borderWidth": "1px",
-                "padding": "16px 22px"
-              }
-            }
-        ]
-      }
-  ]
+            "id": "2",
+            "columns": [
+                {
+                    "attribute": "<Input error />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#D32F2F",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#D32F2F",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                },
+                {
+                    "attribute": "&:hover",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#333333",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                },
+                {
+                    "attribute": "&:focus",
+                    "label": {
+                        "text": "Label",
+                        "color": "#D32F2F",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#D32F2F",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "columns": [
+                {
+                    "attribute": "<Input disabled />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "#F2F2F2",
+                        "borderColor": "#E0E0E0",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "columns": [
+                {
+                    "attribute": "<Input helperText=\"Some interesting text\" />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#333333",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px",
+                        "maxWidth": "250px"
+                    },
+                    "bottomText": {
+                        "text": "Some interesting text",
+                        "color": "#828282",
+                        "fontSize": "12px"
+                    }
+                },
+                {
+                    "attribute": "<Input helperText=\"Some interesting text\" error />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#D32F2F",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#D32F2F",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px",
+                        "maxWidth": "250px"
+                    },
+                    "bottomText": {
+                        "text": "Some interesting text",
+                        "color": "#D32F2F",
+                        "fontSize": "12px"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "columns": [
+                {
+                    "attribute": "<Input startIcon />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#828282",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    },
+                    "icon": {
+                        "position": "start",
+                        "iconSize": "20px"
+                    }
+                },
+                {
+                    "attribute": "<Input endIcon />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#828282",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    },
+                    "icon": {
+                        "position": "end",
+                        "iconSize": "20px"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "columns": [
+               
+                {
+                    "attribute": "<Input value=\"text\" />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "fontWeight": "600",
+                        "value": "Text",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#828282",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "columns": [
+                {
+                    "attribute": "<Input size=\"sm\" />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#828282",
+                        "borderWidth": "1px",
+                        "padding": "8px 22px"
+                    }
+                },
+                {
+                    "attribute": "<Input size=\"md\" />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#828282",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "columns": [
+               
+                {
+                    "attribute": "<Input fullWidth />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "fontWeight": "600",
+                        "value": "Text",
+                        "color": "#3F3F3F",
+                        "width": "calc(100vw - 20rem - 160px)",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#828282",
+                        "borderWidth": "1px",
+                        "padding": "16px 22px"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "columns": [
+               
+                {
+                    "attribute": "<Input multiline row=\"4\" />",
+                    "label": {
+                        "text": "Label",
+                        "color": "#333333",
+                        "fontWeight": "400"
+                    },
+                    "input": {
+                        "type": "text",
+                        "placeholder": "Placeholder",
+                        "fontWeight": "600",
+                        "value": "Text",
+                        "color": "#3F3F3F",
+                        "borderRadius": "8px",
+                        "backgroundColor": "",
+                        "borderColor": "#828282",
+                        "borderWidth": "1px",
+                        "padding": "10px 50px 100px 10px"
+                    }
+                }
+            ]
+        }
+    ]
 }

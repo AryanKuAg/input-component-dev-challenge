@@ -1,5 +1,29 @@
 .my__input::placeholder {
     font-size: 18px;
     font-weight: 600;
-    
-}
+ }
+
+/* 
+  .call__icon, .lock__icon {
+    position: relative;
+  }
+  
+  .lock__icon::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./assets/lock.svg") center / contain no-repeat;
+  }
+
+  .call__icon::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("./assets/call.svg") center / contain no-repeat;
+  } */
